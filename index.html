@@ -8,6 +8,13 @@
         <meta charset="UTF-8">
         <title>HealthCare</title>
         <link rel="stylesheet" href="styles.css" type="text/css">
+        <script src="javaScript/basic.js"></script>
+    
+        <script>
+            setTimeout(function message(){
+            alert("Use JavaScript to create pop-up messages to capture the user's attention.")
+            }, 2000);
+     </script>            
     </head>
 
     <body>
@@ -16,23 +23,31 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">About Us</a>
+                        <a href="#aboutus">About Us</a>
                     </li>
                     <li>
-                        <a href="#">Plans</a>
+                        <a href="#plans">Plans</a>
                     </li>
                     <li>
-                        <a href="#">Healthy Living</a>
+                        <a href="#healthyliving">Healthy Living</a>
                     </li>
                 </ul>
             </nav>
+        </header>
             <div class="abir">
-                <img src="images/main.jpeg" alt="headpic">
+                <img src="images/download.jpg" alt="headpic">
+                <h1 class="heading">health, well-being <br>
+                    and dignity
+
+                </h1>
+            
             </div>
+           
+                   
 
             <main>
                 <section id ="aboutus" class="info">
-                    <img src="images/about.jpg" alt="aboutpic" class="float-left"/>
+                    <img src="images/download.png" alt="aboutpic" class="float-left"/>
                     <h2>About Us</h2>
                     <p>
                         Healtcare has been serving in New York for 20 years . We try to help our best the value-based healthcare model
@@ -58,11 +73,52 @@
 
                  </section>
             </main>
+            <aside class="aside">
+                <div class="contact">
+                    <h3>Get FREE Leads & Help Identify Your Best Prospects</h2>
+                    <a href="#">Call (888)582-6967</a>
+                    <a href="#">Start a Live Chat</a>
+                    <a href="#">Fill Out Form</a>
 
+                </div>
+                <div class="contact">
+                <form class="form">
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <lebel for ="fname">First Name:</lebel>
+                        <input type="text" name="fname" id="fname" placeholder="First Name">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="fname" id="lname" placeholder="Last Name">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone">
+                        <label for="reference">Referral Source:</label>
+			<select name="reference" id="reference">
+				<option value="ad">Advertisement</option>
+				<option value="friend">Friend</option>
+				<option value="google">Google</option>
+				<option value="social">Social Media</option>
+				<option value="other">Other</option>
+			</select>
+                      </fieldset>
+                     
+		
+                    <label for="questions">Questions?</label>
+                    <textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+                    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    <input type="reset" id="reset" value="Reset Form" class="btn">
 
+                </form>
 
+                <h2>We will contect with you as soon as possiable!</h2>
+             </div>
 
-        </header>
+            </aside>
+    <footer>
+        &Copy: 2020 Abir Yusuf
+    </footer>
     </body>
 
 </html>
