@@ -48,7 +48,9 @@ header h1{
     text-transform: uppercase;
     margin: 15px 0px;
     padding: 20px;
+    box-shadow: 10px 10px gray;
     background-color: rgba(52, 184, 234, 0.7);
+
 }
 .heading:hover{
     color: salmon;
