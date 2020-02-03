@@ -58,8 +58,13 @@ header h1{
     text-transform: uppercase;
     margin: 15px 0px;
     padding: 20px;
+    box-shadow: 10px 10px gray;
     background-color: rgba(52, 184, 234, 0.7);
+<<<<<<< HEAD
     box-shadow: 10px 10px rgb(241, 204, 204);
+=======
+
+>>>>>>> f1b5982fff55c9f220745671e2f21a06e7378413
 }
 .heading:hover{
     color: black;
