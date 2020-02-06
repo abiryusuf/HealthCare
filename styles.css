@@ -1,5 +1,15 @@
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+  
 body{
     background-color: #d9dcd6;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -60,11 +70,6 @@ header h1{
     padding: 20px;
     box-shadow: 10px 10px gray;
     background-color: rgba(52, 184, 234, 0.7);
-<<<<<<< HEAD
-    box-shadow: 10px 10px rgb(241, 204, 204);
-=======
-
->>>>>>> f1b5982fff55c9f220745671e2f21a06e7378413
 }
 .heading:hover{
     color: black;
@@ -194,8 +199,59 @@ main::after{
       clear: both;
       content: "";
   }
+  
   *, *::after, *::before {
     box-sizing: border-box;
   }
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-  
+ /* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+    */
+
+    
