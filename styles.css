@@ -161,9 +161,6 @@ h3{
 
 
 }
-label{
-   
-}
 
 .info img{
     max-height: 250px;
@@ -208,7 +205,7 @@ main::after{
   p::first-letter{
       font-size: 200%;
       
-      color: salmon;
+      color: rgb(255, 94, 0);
   }
  a:active{
      color: deepponk;
