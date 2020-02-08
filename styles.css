@@ -204,6 +204,7 @@ main::after{
   /* Pseudo elements to style the especific elements */
   p::first-letter{
       font-size: 200%;
+      color: turquoise;
       
       
   }
