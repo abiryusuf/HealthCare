@@ -202,10 +202,10 @@ main::after{
   
   
   /* Pseudo elements to style the especific elements */
-  p::first-letter{
+  /* p::first-letter{
       font-size: 200%;
-      color: turquoise;
-      
+      color: rgba(0, 0, 255, 0.931);
+       */
       
   }
  a:active{
